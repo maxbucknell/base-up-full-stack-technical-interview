@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "strict": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "types": [
+            "node",
+            "mocha"
+        ],
+        "lib": [
+            "es2017",
+            "es6",
+            "es2019",
+            "dom",
+            "dom.iterable",
+            "scripthost",
+            "esnext.asynciterable",
+            "es2020.promise"
+        ],
+        "inlineSourceMap": true,
+        "target": "ES2019"
+    },
+    "exclude": [
+        "node_modules",
+        ".git"
+    ],
+    "bazelOptions": {
+        "suppressTsconfigOverrideWarnings": true
+    }
+}
